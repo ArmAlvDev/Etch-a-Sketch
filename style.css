@@ -1,0 +1,17 @@
+/*:root {
+  --grid-cols: 16;
+  --grid-rows: 16;
+}
+*/
+.grid {
+  display: grid;
+  width: 400px;
+  height: 400px; 
+  /*grid-template-rows: repeat(var(--grid-rows), 1fr);*/
+  grid-template-columns: repeat(var(--grid-cols), 1fr);
+}
+
+.grid-item {
+  border: 1px solid black;
+  background-color: sandybrown;
+}
